@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Digital Art Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+
+    /* Navbar */
+    nav {
+      background: #333;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #13ae73;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #222acf, #229b7f);
+      color: white;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    /* Contact Section */
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1100px;
+      margin: 40px auto;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      flex: 1 1 350px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .contact-info p {
+      color: #555;
+      margin: 10px 0;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      flex: 1 1 500px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .contact-form label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .contact-form button {
+      background: #2341ad;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      color: #13ae73;
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(to right, #222acf, #229b7f);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="About Us.html">About Us</a>
+    <a href="Artwork.html">Artwork</a>
+    <a href="Auction.html">Auction</a>
+    <a href="Exhibitions.html">Exhibitions</a>
+    <a href="Artist.html">Artists</a>
+    <a href="Contact Us.html">Contact Us</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Get in touch with our team.</p>
+  </header>
+
+  <!-- Contact Section -->
+  <div class="contact-container">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p> Address: Mandi bahauddin</p>
+      <p> Phone: +92 1234567890</p>
+      <p>Email: awaisgondal655@gmail.com</p>
+      <p> Hours: Mon - Fri (9:00 AM - 6:00 PM)</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <!-- Formspree integration -->
+      <form action="https://formspree.io/f/xjkezpzj" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" rows="5" placeholder="Type your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Digital Art Gallery | All Rights Reserved</p>
+  </footer>
+
+</body>
+
+</html>

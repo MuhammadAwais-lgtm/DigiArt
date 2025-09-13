@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artists - Digital Art Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    /* Navigation */
+    nav {
+      background: #333;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #13ae73;
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #222acf, #229b7f);
+      background: ;
+      color: white;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    /* Card containers */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 280px;
+      overflow: hidden;
+      transition: transform 0.2s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+      color: #444;
+    }
+
+    .card p {
+      color: #666;
+      margin: 0 15px 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 8px 15px;
+      background: #333;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      background: #2341ad;
+    }
+
+    /* Auctions List */
+    .auction-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 20px;
+      transition: transform 0.2s;
+      text-align: left;
+    }
+
+    .auction-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .auction-card h4 {
+      margin: 0 0 10px;
+      color: #222;
+    }
+
+    .auction-card ul {
+      padding-left: 20px;
+      margin: 0;
+      color: #555;
+    }
+
+    footer {
+      background: linear-gradient(to right, #222acf, #229b7f);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="About Us.html">About Us</a>
+    <a href="Auction.html">Auction</a>
+    <a href="Artwork.html">Artwork</a>
+    <a href="Exhibitions.html">Exhibition</a>
+    <a href="Artist.html">Artists</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Artists</h1>
+    <p>Explore artists, their artworks, and their past auctions.</p>
+  </header>
+
+  <!-- Artist Profiles -->
+  <section>
+    <h2>Featured Artists</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="pictures/profile1.jpg" alt="sara ali">
+        <h3>Sara Ali</h3>
+        <p>Specializes in modern abstract paintings.</p>
+        <a href="artist_john.html">View Profile</a>
+      </div>
+
+      <div class="card">
+        <img src="pictures/profile2.webp" alt="Ahmed">
+        <h3>M Ahmed</h3>
+        <p>Renowned sculptor with international exhibitions.</p>
+        <a href="artist_sarah.html">View Profile</a>
+      </div>
+
+      <div class="card">
+        <img src="pictures/profile3.jpg" alt="alex shefy">
+        <h3>Alex shefy</h3>
+        <p>Digital art and NFT pioneer.</p>
+        <a href="artist_alex.html">View Profile</a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Artworks -->
+  <section>
+    <h2>Artworks</h2>
+    <div class="card-container">
+      <div class="card"><img src="pictures/Art1.jpg" alt=""><h3>Artwork 1</h3></div>
+      <div class="card"><img src="pictures/Art14.jpg" alt=""><h3>Artwork 2</h3></div>
+      <div class="card"><img src="pictures/Art13.png" alt=""><h3>Artwork 3</h3></div>
+      <div class="card"><img src="pictures/Art4.jpg" alt=""><h3>Artwork 4</h3></div>
+      <div class="card"><img src="pictures/Art11.jpg" alt=""><h3>Artwork 5</h3></div>
+      <div class="card"><img src="pictures/Art6.jpg" alt=""><h3>Artwork 6</h3></div>
+      <div class="card"><img src="pictures/Art7.jpg" alt=""><h3>Artwork 7</h3></div>
+      <div class="card"><img src="pictures/Art8.jpg" alt=""><h3>Artwork 8</h3></div>
+      <div class="card"><img src="pictures/Art9.jpg" alt=""><h3>Artwork 9</h3></div>
+       <div class="card"><img src="pictures/Art10.jpg" alt=""><h3>Artwork 10</h3></div>
+      <div class="card"><img src="pictures/Art5.jpg" alt=""><h3>Artwork 11</h3></div>
+      <div class="card"><img src="pictures/Art12.jpg" alt=""><h3>Artwork 12</h3></div>
+      <div class="card"><img src="pictures/Art3.jpg" alt=""><h3>Artwork 13</h3></div>
+      <div class="card"><img src="pictures/Art2.jpg" alt=""><h3>Artwork 14</h3></div>
+      <div class="card"><img src="pictures/Art15.jpg" alt=""><h3>Artwork 15</h3></div>
+    </div>
+  </section>
+
+  <!-- Auctions -->
+  <section>
+    <h2>Auctions</h2>
+    <div class="card-container">
+      <div class="auction-card">
+        <h4>Abstract Flow</h4>
+        <ul>
+          <li>Artist: Sara Ali</li>
+          <li>Sold for: $3,200</li>
+        </ul>
+      </div>
+      <div class="auction-card">
+        <h4>Marble Grace</h4>
+        <ul>
+          <li>M Ahmed</li>
+          <li>Sold for: $8,000</li>
+        </ul>
+      </div>
+      <div class="auction-card">
+        <h4>Crypto Dreams</h4>
+        <ul>
+          <li>Artist: Alex Shefy</li>
+          <li>Sold for: $2,200</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Digital Art Gallery | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
